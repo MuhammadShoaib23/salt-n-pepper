@@ -1,0 +1,43 @@
+.publications-section {
+    padding: 50px 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .books-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  .about-us{
+    text-decoration: none;
+    color: var(--white);
+  }
+  
+  .book img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .branches-list h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+  
+  .branches-list ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .branches-list li {
+    margin-bottom: 25px;
+  }

@@ -189,7 +189,32 @@ body {
   border-color: var(--white);
   border: 1px solid var(--white);
 } */
-
+#about-us-introduction{
+    text-align: center;
+    margin: 40px 20px;
+    padding: 72px 0px;
+    
+}
+h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#abouth1{
+    font-size: 40px;
+}
+#about-us para{
+    color:  rgb(171, 168, 168);
+}
+about-us-containers{
+    display: grid;
+    /* flex-direction: row;
+    justify-content: space-between; */
+    /* flex-wrap: wrap; */
+}
+#img-container{
+    width: 300px;
+    
+}
 /* responsive media query */
 
 @media(max-width: 1000px){

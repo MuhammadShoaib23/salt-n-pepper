@@ -1,0 +1,319 @@
+body {
+    background-color: #000;
+    color: #ccc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  #futurak-font-heading{
+    font-family: futurak;
+    font-size: 45px;
+}
+  
+  .section {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .heading {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  .about-us{
+    text-decoration: none;
+    color: var(--white);
+  }
+  
+  
+  
+  
+  /* Section Styling */
+  .restaurant-section {
+    background-color: #000;
+    color: #ccc;
+    padding: 60px 20px;
+  }
+  
+  .restaurant-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .restaurant-row.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .restaurant-row img {
+    width: 450px;
+    border-radius: 10px;
+  }
+  
+  .restaurant-text {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .restaurant-text h2 {
+    font-size: 1.8em;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-text p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  /* Franchise Section */
+  .franchise-section {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 1.5em;
+  }
+  
+  /* Highlight Styling */
+  .highlight {
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+    color: #fff;
+  }
+  
+  
+  
+  
+  
+  /* General Section Style */
+  .restaurant-section {
+    background-color: #000;
+    color: #ccc;
+    padding: 60px 20px;
+  }
+  
+  /* Flex Row for Islamabad & Faisalabad Sections */
+  .restaurant-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .restaurant-row.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  /* Image Style */
+  .restaurant-row img {
+    width: 500px;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Text Content */
+  .restaurant-text {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .restaurant-text h2 {
+    font-size: 1.8em;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-text p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  /* Highlight Styling */
+  .highlight {
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+    color: #fff;
+  }
+  
+  
+  
+  
+  
+  /* Section Base Styling */
+  .restaurant-section {
+    background-color: #000;
+    color: #ccc;
+    padding: 60px 20px;
+  }
+  
+  .restaurant-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .restaurant-row.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .restaurant-row img {
+    width: 450px;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .restaurant-text {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .restaurant-text h2 {
+    font-size: 1.8em;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-text p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  /* Express Section */
+  .express-section {
+    text-align: center;
+  }
+  
+  .express-heading h2 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .tagline {
+    font-size: 1.1em;
+    color: #ccc;
+    margin-bottom: 40px;
+  }
+  
+  /* Highlight for Brand Name */
+  .highlight {
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+    color: #fff;
+  }
+  
+  
+  
+  
+  
+  
+  .express-locations-section {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .express-locations-section .highlight {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  .subheading {
+    font-size: 1.3rem;
+    margin: 20px 0 40px;
+  }
+  
+  .locations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .location-card {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .location-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .location-card .city {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+  
+  .location-card .brand {
+    font-weight: bold;
+  }
+  
+  .location-card h4 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+  
+  .location-card p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+    color: #ccc;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .village-franchise {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .village-franchise h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .full-width {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .full-width img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
